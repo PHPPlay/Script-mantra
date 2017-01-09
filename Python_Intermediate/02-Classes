@@ -1,0 +1,24 @@
+#!/usr/bin/python3
+
+class Myclass:
+    number = 0
+    name = "noname"
+
+def MAin():
+    me = Myclass()
+    me.number = 1356
+    me.name = "Draps"
+
+    friend = Myclass()
+    friend.number = 4
+    friend.name = "Steve"
+
+    empty = Myclass()
+
+    print("Name: " + me.name + ", Favorite number: " + str(me.number))
+    print("Name: " + friend.name + ", Favorite Number: " + str(friend.number))
+    print("Name: " + empty.name + ", Favorite Number " + str(empty.number))
+
+if __name__ == '__main__':
+    MAin()
+
